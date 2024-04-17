@@ -1,0 +1,29 @@
+header {
+    background-color: #96858F;
+    color:white;
+    border:4px double white;
+    padding:4em;
+    margin:2em;
+}
+.name{
+    border:7px double black;
+    padding:20px;
+    margin:0px 50px 70px 50px;
+}
+body{
+    background-color:rgb(227, 213, 200);
+}
+.main{
+    font-family:Lobster;
+}
+div.col-sm{
+    height:70px;
+     background-color: #96858F;
+    color:white;
+    border:3px double white;
+  
+}
+.rounded-circle{
+    height:600px;
+    max-width:600px;
+}
