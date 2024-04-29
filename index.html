@@ -1,56 +1,56 @@
 <!DOCTYPE html>
-<html>
-	<head>
-	    <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-    
-        <!-- Bootstrap CSS -->
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
-    
-        <!-- Bootstrap JavaScript -->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-        
-        <!-- Personal CSS -->
-        <link rel="stylesheet" href="style.css" type="text/css">
-        
-		<title>Home Page</title>
-	</head>
-	<header><h1>Home Page</h1></header>
-	
-	 <nav class="navbar navbar-expand navbar-light bg-light">
-                <div class="container-fluid">
-                    <a class="navbar-brand" href="#">Navigation</a>
-                    <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <a class="nav-link" href="bio.html">Bio</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="blog.html">Gallery</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">All My Projects</a>
-                            <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="https://codehs.com/sandbox/id/the-boy-who-cried-wolf-jcew1B/run">The Boy Who Cried Wolf</a></li>
-                                <li><a class="dropdown-item" href="https://codehs.com/sandbox/id/facts-about-axolotls-ide954/run">Facts About Axolotl's</a></li>
-                                <li><a class="dropdown-item" href="https://codehs.com/sandbox/id/info-about-florida-i6yUGY/run">Info About Florida</a></li>
-                            </ul>
-                        </li>
-                        
-                    </ul>
-                </div>
-            </nav>
-    <br>
-	<body class="container">
-	    <section class="name">
-	        <h1><i class="bi bi-house"></i> Home: Jericho D.</h1>
-	    </section>
-	    
-	    <em><p class="display-5">
-	        Hello, my name is Jericho Del Rosario, this website shows a little bit about me. What I like, my hobbies, and all my other projects.
-	    </p></em>
-	    
-	</body>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
 
+    <title>Silly story generator</title>
+
+    <style>
+      body {
+        font-family: helvetica, sans-serif;
+        width: 350px;
+      }
+
+      label {
+        font-weight: bold;
+      }
+
+      div {
+        padding-bottom: 20px;
+      }
+
+      input[type="text"] {
+        padding: 5px;
+        width: 150px;
+      }
+
+      p {
+        background: #f280d4;
+        color: #5e2612;
+        padding: 10px;
+        visibility: hidden;
+      }
+    </style>
+  </head>
+
+	
+  <body>
+    <div>
+      <label for="customname">Enter custom name:</label>
+      <input id="customname" type="text" placeholder="" />
+    </div>
+    <div>
+      <label for="us">US</label
+      ><input id="us" type="radio" name="ukus" value="us" checked />
+      <label for="uk">UK</label
+      ><input id="uk" type="radio" name="ukus" value="uk" />
+    </div>
+    <div>
+      <button class="randomize">Generate random story</button>
+    </div>
+    <!-- Thanks a lot to Willy Aguirre for his help with the code for this assessment -->
+    <p class="story"></p>
+	<script src="main.js"></script>
+  </body>
 </html>
